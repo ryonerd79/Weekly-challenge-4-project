@@ -3,7 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: monospace;
-  color: white;
+  
   
 }
 
@@ -31,6 +31,10 @@ button {
 
 .quiz-info-title {
   color: black;
+  text-align: center;
+  font-size: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .start-button {
@@ -59,8 +63,14 @@ button {
   width: 50%;
   height: 100%;
   margin: 0 auto;
+  
 }
 
 h1, h2 {
   color: black;
+  text-align: center;
+}
+
+.questions {
+  display: none;
 }
