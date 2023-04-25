@@ -1,7 +1,10 @@
+//var quiz = document.querySelector("quiz-content");
+
 document.querySelector(".start-button").addEventListener("click", function () {
     document.querySelector(".quiz-info-box").style.display = "none";
     document.querySelector(".questions").style.display = "block";
     renderQuestion();
+    
 }
 
 );
