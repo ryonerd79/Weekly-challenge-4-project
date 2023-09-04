@@ -5,41 +5,42 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./02-Challenge/Main/assets/css/style.css" />
+  <link rel="stylesheet" href="style.css" />
 
   <title>Coding Quiz</title>
 </head>
 
 <body>
-<div>
-    <div class="container-1" >
+  <div class="container-1">
       <div class="top-bar">
-        <button>View Highscores</button>
-        <p>Timer: 1:00</p>
+        <button class="high-score-btn">View Highscores</button>
+        <h2>Timer: <span id="timer">00</span></h2>
       </div>
+
       <div class="container-2" id="quiz-content">
         <header class="quiz-info-box">
           <h1>Coding Quiz</h1>
-          <div class="quiz-info-title">Try to answer the quiz questions before time runs out. 10 seconds will
+          <p class="quiz-info-title">Try to answer the quiz questions before time runs out. 10 seconds will
             get
-            deducted for each incorrect answer you make.</div>
+            deducted for each incorrect answer you make.</p>
           <div class="start-button"><button>Start Quiz</button></div>
         </header>
         <main>
           <section class="questions">
-            <h2 class="question-text">question</h2>
+            <h2 class="question-text"></h2>
             <ul>
-              <li><button>answer 1</button></li>
-              <li><button>answer 2</button></li>
-              <li><button>answer 3</button></li>
-              <li><button>answer 4</button></li>
+              <li><button class="response-1"></button></li>
+              <li><button class="response-2"></button></li>
+              <li><button class="response-3"></button></li>
+              <li><button class="response-4"></button></li>
             </ul>
+            <p class ="answer-msg"></p>
           </section>
         </main>
       </div>
     </div>
-    <script src="./02-Challenge/Main/assets/script.js"></script>
-  </div> 
+  
+c<script src="script.js"></script>
 </body>
 <footer>
 
